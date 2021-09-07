@@ -1,0 +1,81 @@
+
+
+.container-wrapper{
+    width:100%;
+    margin:auto;
+    max-width:1200px;
+    display:flex;
+    flex-wrap:wrap;
+    margin-bottom:30px;
+    align-items:center;
+  }
+  
+   h1 {
+    max-width:25ch;
+    font-size:34px;
+    color:#008000;
+    font-weight:normal;
+    font-family:'Open Sans', sans-serif;
+    letter-spacing:1.8px;
+    line-height:100%;
+  }
+  
+  h1::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid;
+    width: 25%;
+    position: relative;
+    bottom: -16px;
+  }
+  
+   .text {
+    font-family:'Open Sans', sans-serif;
+    margin-top:50px;
+    font-size:16px;
+    max-width:45ch;
+  }
+  
+  .akcija{
+    width:100%;
+    padding:20px;
+    background-color:rgb(217, 240, 216);
+    margin:auto;
+    max-width:1200px;
+    text-align:center;
+    padding:50px 0 50px 0;
+  }
+  
+   h2 {
+    font-size:30px;
+    color:#008000;
+    font-weight:normal;
+    font-family:'Open Sans', sans-serif;
+    letter-spacing:1.8px;
+    line-height:100%;
+  }
+  .akcija > p {
+    margin:auto;
+    font-family:'Open Sans', sans-serif;
+    margin-top:30px;
+    font-size:16px;
+    max-width:55ch;
+  }
+  
+  .akcija > img {
+    margin:30px;
+  }
+  
+  button {
+    background-color: rgb(217, 240, 216); /* Green */
+    border: solid 1px #008000;
+    color: #008000;
+    padding: 10px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  
+  
